@@ -12,7 +12,7 @@ const TrailBoxes = () => {
             buttonInfo={{
               text: 'Browse Trails',
               link: '/trails',
-              backgroundColor: 'bg-gray-500'
+              backgroundColor: 'bg-blue-500'
             }}>
             List of trails in the area.
           </TrailBox>
