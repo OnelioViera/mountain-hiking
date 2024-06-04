@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import logo from '@/public/images/hiking-logo-3.png';
 import TrailBoxes from '@/components/TrailBoxes';
-import bgimage from '@/public/images/unsplashImage.png';
 
 const MainPage = () => {
   return (
@@ -20,7 +19,7 @@ const MainPage = () => {
 
       <div className='my-6'>
         <Image
-          src="/images/bgimage.png"
+          src="/images/bgimage3.png"
           alt="External Link"
           width={0}
           height={0}
