@@ -1,5 +1,6 @@
 import '@/assets/styles/globals.css';
 import Navbar from '@/components/Navbar';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata = {
   title: 'Test Next App v2',
@@ -14,6 +15,7 @@ const MainLayout = ({ children }) => {
         <Navbar />
         <main>
           {children}
+          <SpeedInsights />
         </main>
       </body>
     </html>
