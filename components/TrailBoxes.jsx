@@ -23,7 +23,7 @@ const TrailBoxes = () => {
             buttonInfo={{
               text: 'Browse Groups',
               link: '/groups',
-              backgroundColor: 'bg-gray-500'
+              backgroundColor: 'bg-blue-500'
             }}>
             List of hiking groups in the area.
           </TrailBox>
