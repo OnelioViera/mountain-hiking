@@ -10,7 +10,7 @@ const TrailBoxes = () => {
             heading="Find Trails"
             backgroundColor="bg-gray-100"
             buttonInfo={{
-              text: 'Broswe Trails',
+              text: 'Browse Trails',
               link: '/trails',
               backgroundColor: 'bg-gray-500'
             }}>
@@ -21,7 +21,7 @@ const TrailBoxes = () => {
             heading="Find Hiking Groups"
             backgroundColor="bg-gray-100"
             buttonInfo={{
-              text: 'Broswe Groups',
+              text: 'Browse Groups',
               link: '/groups',
               backgroundColor: 'bg-gray-500'
             }}>
