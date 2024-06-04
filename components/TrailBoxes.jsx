@@ -21,7 +21,7 @@ const TrailBoxes = () => {
             heading="Find Hiking Groups"
             backgroundColor="bg-gray-100"
             buttonInfo={{
-              text: 'Broswer Groups',
+              text: 'Broswe Groups',
               link: '/groups',
               backgroundColor: 'bg-gray-500'
             }}>
