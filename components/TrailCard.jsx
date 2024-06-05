@@ -20,9 +20,9 @@ const TrailCard = ({ trail }) => {
         <div className='text-left md:text-center lg:text-left mb-3'>
           <h3 className='text-2xl font-bold'>{trail?.name ?? 'Unknown Trail'}</h3>
           <h4 className='text-lg font-semibold pb-2 text-gray-600'>{trail?.location ?? 'Unknown Location'}</h4>
-          <div className='text-gray-600'>{trail?.difficulty ?? 'Unknown Difficulty'}</div>
-          <div className='text-gray-600'>{trail?.distance ?? 'Unknown Distance'}</div>
-          <div className='text-gray-600'>{trail?.elevation ?? 'Unknown Elevation'}</div>
+          <div className='text-gray-600'>Difficulty: {trail?.difficulty ?? 'Unknown Difficulty'}</div>
+          <div className='text-gray-600'>Distance: {trail?.distance ?? 'Unknown Distance'} miles</div>
+          <div className='text-gray-600'>Elevation Gain: {trail?.elevation ?? 'Unknown Elevation'}</div>
         </div>
         <p className='mt-2'>{trail?.description ?? 'No description available.'}</p>
 

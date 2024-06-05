@@ -2,10 +2,10 @@
   {
   "_id": "1",
   "name": "Palmer, Cabin Canyon, and Strausenback Trail Loop",
-  "difficulty": "Difficulty: Easy",
-  "elevation": "Elevation Gain: 593 ft",
+  "difficulty": "Easy",
+  "elevation": "593 ft",
   "location": "Garden of the Gods Park",
-  "distance": "Distance: 4.0 mile",
+  "distance": "4.0",
   "description": "Enjoy this 4.0-mile loop trail near Manitou Springs, Colorado. Generally considered an easy route, it takes an average of 1 h 46 min to complete.",
   "image": ["a1.jpg"],
   "Link": "https://www.alltrails.com/explore/trail/us/colorado/rocks-and-vistas-garden-of-the-gods-trail"
@@ -13,10 +13,10 @@
   {
     "_id": "2",
     "name": "Red Rocks Trading Post Trail",
-    "difficulty": "Difficulty: Easy",
-    "elevation": "Elevation Gain: 364 ft",
+    "difficulty": "Easy",
+    "elevation": "364 ft",
     "location": "Red Rock Canyon Open Space",
-    "distance": "Distance: 1.6 mile",
+    "distance": "1.6",
     "description": "Check out this 1.6-mile loop trail near Morrison, Colorado. Generally considered a moderately challenging route, it takes an average of 50 min to complete.",
     "image": ["a2.jpg"],
     "Link": "https://www.alltrails.com/explore/trail/us/colorado/red-rocks-trading-post-trail"
@@ -24,10 +24,10 @@
     {
       "_id": "3",
       "name": "Columbine Trail",
-      "difficulty": "Difficulty: Moderate",
-      "elevation": "Elevation Gain: 1,702 ft",
+      "difficulty": "Moderate",
+      "elevation": "1,702 ft",
       "location": "North Cheyenne Canon Park",
-      "distance": "Distance: 8.0 mile",
+      "distance": "8.0",
       "description": "Try this 8.0-mile out-and-back trail near Colorado Springs, Colorado. Generally considered a moderately challenging route, it takes an average of 4 h 4 min to complete.",
       "image": ["a3.jpg"],
       "Link": "https://www.alltrails.com/explore/us/colorado/colorado-springs?b_tl_lat=38.806746399999724&b_tl_lng=-104.9278246623498&b_br_lat=38.76972359999942&b_br_lng=-104.84044533764984"
@@ -35,10 +35,10 @@
       {
         "_id": "3",
         "name": "Columbine Trail",
-        "difficulty": "Difficulty: Moderate",
-        "elevation": "Elevation Gain: 1,702 ft",
+        "difficulty": "Moderate",
+        "elevation": "1,702 ft",
         "location": "North Cheyenne Canon Park",
-        "distance": "Distance: 8.0 mile",
+        "distance": "8.0",
         "description": "Try this 8.0-mile out-and-back trail near Colorado Springs, Colorado. Generally considered a moderately challenging route, it takes an average of 4 h 4 min to complete.",
         "image": ["a3.jpg"],
         "Link": "https://www.alltrails.com/explore/us/colorado/colorado-springs?b_tl_lat=38.806746399999724&b_tl_lng=-104.9278246623498&b_br_lat=38.76972359999942&b_br_lng=-104.84044533764984"
