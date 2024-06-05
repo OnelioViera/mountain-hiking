@@ -13,7 +13,7 @@ export const metadata = {
 const MainLayout = ({ children }) => {
   return (
     <html lang='en'>
-      <body>
+      <body className='flex flex-col min-h-screen'>
         <Navbar />
         <main>
           {children}
