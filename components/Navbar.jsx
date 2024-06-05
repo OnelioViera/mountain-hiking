@@ -10,7 +10,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className='bg-green-700 border-b border-green-800 text-white py-3 px-4 shadow-lg'>
+    <nav className='bg-green-700 border-b-2 border-green-800 text-white py-3 px-4 shadow-lg'>
       <div className='mx-auto max-w-8xl px-2 sm:px-6 lg:px-8'>
         
         <div className='realitive flex items-center justify-between'>
