@@ -13,7 +13,7 @@ const Hero = () => {
           <h1 className="font-extrabold text-4xl lg:text-6xl text-[#6a0923]">Colorado Springs</h1>
           <p className="text-2xl font-mono text-white my-4 lg:text-4xl">Mountain Hiking</p>
         </div>
-        <div className='mb-8 lg:my-20'>
+        <div className='lg:my-10'>
           <TrailBoxes />
         </div>
       </div>
