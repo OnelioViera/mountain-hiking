@@ -3,7 +3,7 @@ import TrailBoxes from './TrailBoxes';
 const Hero = () => {
   return (
     // <!-- Hero -->
-    <section className="bg-cover bg-center h-screen"
+    <section className="bg-cover bg-center"
       style={{ backgroundImage: "url('https://cdn.backpacker.com/wp-content/uploads/2022/04/GettyImages-600968276-scaled-e1649714272520.jpg')" }}
     >
       <div
