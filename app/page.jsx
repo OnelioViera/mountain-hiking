@@ -1,4 +1,3 @@
-import TrailBoxes from '@/components/TrailBoxes';
 import Hero from '@/components/Hero';
 import CurrentNews from '@/components/CurrentNews';
 
