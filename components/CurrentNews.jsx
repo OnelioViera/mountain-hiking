@@ -5,7 +5,7 @@ const CurrentNews = () => {
       <h1 className="text-2xl font-semibold text-center text-[#6a0923] lg:text-4xl md:text-3xl mb-4 mt-4 py-2">Current News</h1>
       </div>
       <div>
-        <div className="container-xl lg:container m-auto lg:mb-6">
+        <div className="container-xl lg:container m-auto lg:mb-6 mb-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 rounded-lg">
             <div className="bg-gray-100 p-4 rounded-lg shadow-lg">
               <h2 className="text-xl font-semibold text-[#6a0923] lg:text-2xl md:text-xl">New Trail Opening</h2>
