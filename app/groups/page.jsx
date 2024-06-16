@@ -13,7 +13,7 @@ const GroupPage = () => {
         {groups.length === 0 ? (
           <p>No groups found</p>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6">
             {groups.map((group) => (
               <GroupCard key={group._id} group={group} />
             ))}
