@@ -5,6 +5,7 @@ const MainPage = () => {
   return (
     <div className="text-center object-center">
       <Hero />
+      
       <CurrentNews /> 
       
     </div>
