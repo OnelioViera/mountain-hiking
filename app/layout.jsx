@@ -5,10 +5,10 @@ import { Analytics } from '@vercel/analytics/next';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Test Next App v2',
-  description: 'This is a test Next.js app v2',
-  keywords: 'next.js, tailwindcss, react',
-}
+  title: 'Mountain Hiking',
+  description: 'Mountain Hiking is a website for hikers and outdoor enthusiasts.',
+  keywords: 'hiking, mountain hiking',
+};
 
 const MainLayout = ({ children }) => {
   return (
@@ -24,6 +24,6 @@ const MainLayout = ({ children }) => {
       </body>
     </html>
   )
-}
+};
 
 export default MainLayout;
