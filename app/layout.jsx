@@ -3,9 +3,7 @@ import Navbar from '@/components/Navbar';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/next';
 import Footer from '@/components/Footer';
-import {
-  ClerkProvider,
-} from '@clerk/nextjs'
+import { ClerkProvider } from '@clerk/nextjs'
 
 export const metadata = {
   title: 'Mountain Hiking',

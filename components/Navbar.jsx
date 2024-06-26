@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import logo from '@/public/images/hiking-logo-3.png';
-import { UserButton, SignInButton, SignOutButton } from '@clerk/nextjs'
+import { SignInButton, SignOutButton } from '@clerk/nextjs'
 
 
 const Navbar = () => {
@@ -60,7 +60,6 @@ const Navbar = () => {
               </div>
             </div>
         </div>
-        <UserButton />
 
       </div>
     </nav>
