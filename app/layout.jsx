@@ -3,6 +3,13 @@ import Navbar from '@/components/Navbar';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/next';
 import Footer from '@/components/Footer';
+import {
+  ClerkProvider,
+  SignInButton,
+  SignedIn,
+  SignedOut,
+  UserButton
+} from '@clerk/nextjs'
 
 export const metadata = {
   title: 'Mountain Hiking',
@@ -12,17 +19,19 @@ export const metadata = {
 
 const MainLayout = ({ children }) => {
   return (
+    <ClerkProvider>
     <html lang='en'>
       <body className='flex flex-col min-h-screen'>
         <Navbar />
         <main>
-          {children}
+            {children}
           <SpeedInsights />
           <Analytics />
         </main>
         <Footer />
       </body>
     </html>
+    </ClerkProvider>
   )
 };
 

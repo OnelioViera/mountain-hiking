@@ -4,6 +4,8 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import logo from '@/public/images/hiking-logo-3.png';
+import { UserButton, SignInButton, SignOutButton } from '@clerk/nextjs'
+
 
 const Navbar = () => {
 
@@ -45,18 +47,21 @@ const Navbar = () => {
               className={`${pathname === '/contact' ?  'bg-[#6a0923]' : ''} hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-white`}>
               CONTACT
             </Link>
-
           </div>
           <div className="hidden md:block md:ml-6">
               <div className="flex items-center">
                 <button
                   className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
               >
-                  <span>Login or Register</span>
+                <SignInButton />
+                <SignOutButton />
+                  <span></span>
                 </button>
               </div>
             </div>
         </div>
+        <UserButton />
+
       </div>
     </nav>
   )
