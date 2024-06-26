@@ -5,10 +5,6 @@ import { Analytics } from '@vercel/analytics/next';
 import Footer from '@/components/Footer';
 import {
   ClerkProvider,
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton
 } from '@clerk/nextjs'
 
 export const metadata = {
