@@ -20,7 +20,7 @@ const MainLayout = ({ children }) => {
         <main>
             {children}
           <SpeedInsights />
-          <Analytics />
+            <Analytics />
         </main>
         <Footer />
       </body>

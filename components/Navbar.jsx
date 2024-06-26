@@ -4,12 +4,31 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import logo from '@/public/images/hiking-logo-3.png';
-import { SignInButton, SignOutButton } from '@clerk/nextjs'
-
+import { SignInButton, SignOutButton, useAuth } from '@clerk/nextjs'
 
 const Navbar = () => {
 
   const pathname = usePathname();
+
+  const { sessionId } = useAuth();
+
+  if (!sessionId) {
+    return (
+      <div className='sticky top-0 z-50 bg-green-700 border-b-2 border-green-800 text-white py-3 px-4 shadow-lg'>
+        <div className='mx-auto max-w-8xl px-2 sm:px-6 lg:px-8'>
+          <div className='realitive flex items-center justify-between'>
+            <Link className='flex-shrink-0 hidden md:block' href='/'>
+              <Image src={logo} alt='Hiking Logo' width={150} height={150}
+              />
+            </Link>
+            <div className='text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'>
+              <SignInButton />
+              </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <nav className='sticky top-0 z-50 bg-green-700 border-b-2 border-green-800 text-white py-3 px-4 shadow-lg'>
@@ -22,8 +41,6 @@ const Navbar = () => {
             />
           </Link>
           <div className='flex space-x-2'>
-
-
             <Link
               href='/'
               className={`${pathname === '/' ? 'bg-[#6a0923]' : ''} hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-white`}>
@@ -48,19 +65,12 @@ const Navbar = () => {
               CONTACT
             </Link>
           </div>
-          <div className="hidden md:block md:ml-6">
-            <div className="flex items-center">
-              <button
-                className="flex items-center text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
-              >
-                <div className='flex '>
-                  <SignInButton />
-                
-                <div className='pl-4'>
-                  <SignOutButton />
-                  </div>
-                  </div>
-              </button>
+          <div className="md:block md:ml-6">
+            <div className='flex items-center space-x-4 text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'>
+
+              <div>
+                <SignOutButton signOutOptions={{ sessionId }} />
+              </div>
             </div>
           </div>
         </div>
