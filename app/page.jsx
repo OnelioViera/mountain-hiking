@@ -1,7 +1,7 @@
 import Hero from '@/components/Hero';
 import CurrentNews from '@/components/CurrentNews';
 
-const MainPage = () => {
+const HomePage = () => {
   return (
     <div className="text-center object-center">
       <Hero />
@@ -12,4 +12,4 @@ const MainPage = () => {
   )
 }
 
-export default MainPage;
+export default HomePage;

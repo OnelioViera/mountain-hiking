@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import logo from '@/public/images/hiking-logo-3.png';
-import { SignInButton, SignOutButton, useAuth } from '@clerk/nextjs'
+import { SignInButton, UserButton, useAuth } from '@clerk/nextjs'
 
 const Navbar = () => {
 
@@ -66,11 +66,8 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="md:block md:ml-6">
-            <div className='flex items-center space-x-4 text-white bg-gray-700 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'>
-
-              <div>
-                <SignOutButton signOutOptions={{ sessionId }} />
-              </div>
+              <div>          
+                <UserButton UserButtons={{ sessionId }} />
             </div>
           </div>
         </div>
